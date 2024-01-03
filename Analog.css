@@ -1,0 +1,57 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+#outer{
+    justify-content:center;
+    height:300px;
+    width:300px;
+    border:2px solid;
+    border-radius:50%;
+    margin:0 auto;
+    background-image:url("clock.png");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.dot{
+    border:1px solid black;
+    background-color: black;
+    height:10px;
+    
+    border-radius:50%;
+    position:absolute;
+    justify-content: center;
+    margin:0%;
+    
+}
+.Hour{
+
+    width:2px;
+    height:90px;
+    background-color: brown;
+    position:absolute;
+    left: 149px;
+    top: 50px;
+}
+
+.Minute{
+    width:1px;
+    height:90px;
+    background-color: blue;
+    position:absolute;
+    left: 149px;
+    top: 50px;
+
+}
+.Second{
+width:1px;
+height:70px;
+background-color: green;
+position:absolute;
+left: 149px;
+top: 50px;
+}
